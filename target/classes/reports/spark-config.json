@@ -1,0 +1,14 @@
+  {
+    "theme": "standard",
+    "encoding": "utf-8",
+    "protocol": "HTTPS",
+    "timelineEnabled": false,
+    "offlineMode": true,
+    "thumbnailForBase64": false,
+    "documentTitle": "SURA_ExtentReports",
+    "reportName": "SURA Demo Reports",
+    "timeStampFormat": "MMM dd, YYYY HH:mm:ss a",
+    "js":"",
+    "css":""
+    }
+  

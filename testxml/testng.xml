@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <test name="Test Automation">
+        <classes>
+            <class name="com.test.automationscripts.TS_Common">
+                <methods>
+                    <include name="tc_001"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

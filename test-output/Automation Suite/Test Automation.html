@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>TestNG:  Test Automation</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test Automation</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 07 13:29:53 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7547 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.automationscripts.TS_Common.tc_001()'><b>tc_001</b><br>Test class: com.test.automationscripts.TS_Common<br>Parameters: tc_001, https://www.saucedemo.com/, standard_user, secret_sauce<br/>
+<a href="#Output-1687702287" onClick='toggleBox("Output-1687702287", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1687702287" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1687702287">
+&emsp; <div class="test-title"> <strong><font size = "3" color = "#000080">--- Test Execution Starts ---</font> </strong> </div>&emsp;&emsp;<br/>
+&emsp; <div class="test-title"> <strong><font size = "3" color = "#000080">tc_001 | Browser: chrome 129.0.6668.90 | OS: Windows 11 | Java: 21.0.1</font></strong></div>&emsp; <div><strong>Steps:</strong><br></div>&emsp;<br/>
+&emsp;<div class="test-message">Start of tc_001</div><br/>
+&emsp;<div class="test-message">Start of bc_Login</div><br/>
+&emsp;<div class="test-message">End of bc_Login</div><br/>
+&emsp;<div class="test-message">End of tc_001_sssss</div><br/>
+&emsp; <div class="test-title"> <strong><font size = "3" color = "#0000FF">--- Test Execution Ends ---</font> </strong> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.test.automationscripts.TS_Common@9f116cc</td></tr>
+</table><p>
+</body>
+</html>
